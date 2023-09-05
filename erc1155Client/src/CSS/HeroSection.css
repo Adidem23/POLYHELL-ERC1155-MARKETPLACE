@@ -1,0 +1,90 @@
+/* Hero section container */
+/* .hero {
+   
+    width: fit-content;
+} */
+
+
+.hero-content {
+    text-align: center;
+}
+
+/* Heading */
+.hero-content h1 {
+    font-size: 4.5rem;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.newp {
+    font-size: 3.2rem;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 3px 68px;
+    color: #333;
+    /* Set the color as needed */
+}
+
+#butty {
+    margin-top: 25px;
+}
+
+#wave {
+    animation: waveAnimation 10s linear infinite;
+}
+
+/* This is for Circular Divs Only  */
+circular-divs {
+    position: absolute;
+}
+
+.circular-div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#circular-div-1 {
+    top: 10%;
+    left: 10%;
+    animation: appear 2s ease 0.5s forwards;
+}
+
+#circular-div-2 {
+    top: -1%;
+    left: 45%;
+    animation: appear 2s ease 0.5s forwards;
+}
+
+#circular-div-3 {
+    top: 50%;
+    left: 85%;
+    animation: appear 2s ease 0.5s forwards;
+}
+
+.circular-div img {
+    max-width: 80%; /* Adjust the size of the image as needed */
+    max-height: 80%; /* Adjust the size of the image as needed */
+    border-radius: 50%;
+}
+
+
+
+/* This is end of circular divs only  */
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

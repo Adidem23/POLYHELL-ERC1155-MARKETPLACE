@@ -1,0 +1,89 @@
+/* Styles for footer */
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color:whitesmoke;
+    margin-top: 150px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    flex: 1;
+    text-align: left;
+}
+
+.company-logo {
+    width: 80px;
+    height: auto;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.footer-right {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info,
+.footer-features,
+.footer-resources {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info h3,
+.footer-features h3,
+.footer-resources h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+}
+
+.footer-features{
+    margin-left: 40px;
+}
+.footer-features ul,
+.footer-resources ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-features li,
+.footer-resources li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: white;
+    flex: 1;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+
