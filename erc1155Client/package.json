@@ -12,7 +12,6 @@
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@thirdweb-dev/react": "^3.14.40",
-    "@thirdweb-dev/sdk": "^3.10.59",
     "ethers": "^5.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
