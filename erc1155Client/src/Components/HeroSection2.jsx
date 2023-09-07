@@ -1,5 +1,6 @@
 import '../CSS/HeroSection2.css';
 import Spline from '@splinetool/react-spline';
+import {Link} from 'react-router-dom';
 
 const HeroSection2 = () => {
     return (
@@ -23,22 +24,20 @@ const HeroSection2 = () => {
                                 <h3 className="heading-style-h4">Mint Monsters</h3>
                                 <p className="text-size-regular">Mint Monsters Family Waiting For  Minter </p>
                                 <Spline scene="https://prod.spline.design/ntCk8SOnlfFaFdvN/scene.splinecode" />
-                                <button className='but2'>Visit</button>
+                                <Link to="/mintnft"> <button className='but2'>Visit</button></Link>
 
                             </div>
 
                             <div id="w-node-_148d68e9-623c-439e-9bb4-b8f7904fb410-904fb410" className="cards_event-type is-outlined-no-planet">
                                 <h3 className="heading-style-h4">Mint Batches of NFT</h3>
                                 <p className="text-size-regular">Experience The Treasure Of NFT s </p>
-                                {/* <Spline scene="https://prod.spline.design/cCkFF10ydHctHLKX/scene.splinecode" /> */}
                                 <Spline scene="https://prod.spline.design/cOIYW69Ckqa85avE/scene.splinecode" />
                                 <button className='but2'>Visit</button>
-
                             </div>
 
-                            <div id="w-node-_148d68e9-623c-439e-9bb4-b8f7904fb410-904fb410" className="cards_event-type is-outlined-no-planet"><h3 className="heading-style-h4">Experience MarketPlaces</h3><p className="text-size-regular">Sell , Buy And Burn Nfts to Claim and Store Rare NFTs</p>
+                            <div id="w-node-_148d68e9-623c-439e-9bb4-b8f7904fb410-904fb410" className="cards_event-type is-outlined-no-planet"><h3 className="heading-style-h4">Experience MarketPlaces</h3><p className="text-size-regular">Sell , Buy And Auction Your NFTs</p>
                                 <Spline scene="https://prod.spline.design/evBfjH1XuDnEf8Oo/scene.splinecode" />
-                                <button className='but2'>Visit</button>
+                                <Link to="/marketplace"> <button className='but2'>Visit</button></Link>
                             </div>
 
                             <div id="w-node-_148d68e9-623c-439e-9bb4-b8f7904fb410-904fb410" className="cards_event-type is-outlined-no-planet">

@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import MintNFT from "./Components/MintNFT"
 import { ThirdwebSDKProvider } from '@thirdweb-dev/react'
 import { ethers } from "ethers";
+import MarketPlace from "./Components/MarketPlace";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" Component={ComposeAll} />
           <Route path="/mintnft" Component={MintNFT} />
+          <Route path="/marketplace" Component={MarketPlace} />
         </Routes>
       </ThirdwebSDKProvider>
     </>
