@@ -35,21 +35,12 @@ const MintNFT = () => {
     }
 
     const HandleFile = async (event) => {
-
         setClickedForImage(true);
 
         const selectedImage = event.target.files[0];
-
         setImage1(selectedImage);
 
         if (selectedImage) {
-            const reader = new FileReader();
-
-            reader.onload = (e) => {
-                const fileContent = e.target.result;
-                console.log(fileContent);
-            };
-
             setImage(URL.createObjectURL(selectedImage))
         }
 
@@ -139,6 +130,7 @@ const MintNFT = () => {
                 image: Image1
             }
         }
+        
         const signedPayload = await contract.erc1155.mintTo(Account, MetadataWithSupply);
         console.log(signedPayload);
 
@@ -169,10 +161,6 @@ const MintNFT = () => {
         })
         setSuccessToastWork(true);
     }
-
-
-
-
 
     return (
         <>
