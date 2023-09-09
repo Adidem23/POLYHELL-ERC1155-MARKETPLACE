@@ -1,5 +1,5 @@
 import '../CSS/Footer.css'
-import Logo from '../Images/Logo.png';
+import Logo from '../Images/PolyHell_Logo.png';
 
 const Footer = () => {
     return (
@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className="footer-right">
                     <div className="contact-info">
                         <h3>Contact Us</h3>
-                        <p>Email:adityasuryawanshi1310@gmail.com</p>
-                        <p>Phone:+91 8421693017</p>
+                        <p>adityasuryawanshi5451@gmail.com</p>
+                        <p>8421697890</p>
                     </div>
                     <div className="footer-features">
                         <h3>Features</h3>
@@ -25,15 +25,15 @@ const Footer = () => {
                     <div className="footer-resources">
                         <h3>Resources</h3>
                         <ul>
-                            <li>Adidem23</li>
-                            <li>AthuGod</li>
-                            <li>SassyDad</li>
+                            <li>MLSC</li>
+                            <li>VIT PUNe</li>
+                            <li>LATUR</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+                <p>&copy; 2023 PolyHell All rights reserved.</p>
             </div>
         </footer>
     );

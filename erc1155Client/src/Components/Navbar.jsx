@@ -1,5 +1,5 @@
 import '../CSS/Navbar.css'
-import Logo from '../Images/Logo.png'
+import Logo from '../Images/PolyHell_Logo.png'
 import { useState } from 'react';
 
 const Navbar = () => {
