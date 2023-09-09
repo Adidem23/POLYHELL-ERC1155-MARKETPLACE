@@ -23,3 +23,4 @@ This is ERC1155 Marketplace where you can Buy , Mint , Burn and Transfer Your ER
 The Deployed Site is Showing Working Frontend But it lacking in Backend Fucntionality somewhere it has to fetch NFts and other Fucntionality
 
 # Demo Video Link
+https://www.loom.com/share/842742366b28406c85d5183c0b3d11d2?sid=aa92c2a2-8d2f-42f9-a71e-9da0bf63408b
