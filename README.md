@@ -19,4 +19,7 @@ This is ERC1155 Marketplace where you can Buy , Mint , Burn and Transfer Your ER
 # Thirdweb ERC1155 Collection Deployed Contract Address : 0xDC5A319945E0c84e7A559DC2FbCC99fB7f88c43a
 # Thirdweb Marketplce Deployed Contract Address : 0xe9fb18725384c0437705955edb5259D377CB7499
 
+# Deployed Site : https://adityaerc1155marketplce.netlify.app/ 
+The Deployed Site is Showing Working Frontend But it lacking in Backend Fucntionality somewhere it has to fetch NFts and other Fucntionality
+
 # Demo Video Link
