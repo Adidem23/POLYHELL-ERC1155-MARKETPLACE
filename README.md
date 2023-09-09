@@ -16,12 +16,9 @@ This is ERC1155 Marketplace where you can Buy , Mint , Burn and Transfer Your ER
 - Spline 3D For 3D rendering 
 - Other Related Packages
 
-Thirdweb ERC1155 Collection Deployed Contract Address : 0xDC5A319945E0c84e7A559DC2FbCC99fB7f88c43a
+# Thirdweb ERC1155 Collection Deployed Contract Address : 0xDC5A319945E0c84e7A559DC2FbCC99fB7f88c43a
 <br />
-<br />
-<br />
-
-Thirdweb Marketplce Deployed Contract Address : 0xe9fb18725384c0437705955edb5259D377CB7499
+# Thirdweb Marketplce Deployed Contract Address : 0xe9fb18725384c0437705955edb5259D377CB7499
 
 # Deployed Site : https://adityaerc1155marketplce.netlify.app/ 
 The Deployed Site is Showing Working Frontend But it lacking in Backend Fucntionality somewhere it has to fetch NFts and other Fucntionality
